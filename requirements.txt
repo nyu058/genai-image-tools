@@ -3,3 +3,5 @@ langchain
 pypdf
 langchain-openai
 python-dotenv
+faiss-cpu
+openai
