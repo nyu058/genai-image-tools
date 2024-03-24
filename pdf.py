@@ -6,6 +6,9 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 import streamlit as st
 import shutil
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
