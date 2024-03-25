@@ -7,7 +7,7 @@ from openai import OpenAI
 
 class LogoAiTool(AiTool):
 
-    prompt_template = "A {logo_style} logo of {subject} with a white background. {add_req}"
+    prompt_template = "A {logo_style} logo of {subject} with a white background. The theme color should be {theme_color}. {add_req}"
     model = "dall-e-3"
     
     def generate_image(self, **kwargs):
