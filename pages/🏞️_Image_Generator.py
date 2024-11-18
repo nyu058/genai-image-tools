@@ -1,11 +1,11 @@
 import streamlit as st
 import requests
-from tools.image import ImageAiTool
+from tools.image import StandardImageAiTool
 from datetime import datetime
 
 st.set_page_config(page_title="Image Generator", page_icon="🏞️")
 
-image_ai = ImageAiTool()
+image_ai = StandardImageAiTool()
 
 st.title("Image Generator")
 

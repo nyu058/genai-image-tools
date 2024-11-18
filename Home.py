@@ -5,6 +5,6 @@ st.set_page_config(
     page_icon="🏠",
 )
 
-st.write("Welcome!")
+st.title("Welcome!")
 
 st.sidebar.success("Select an app from above")
