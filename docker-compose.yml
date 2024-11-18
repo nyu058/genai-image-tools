@@ -1,0 +1,8 @@
+services:
+  genai-image:
+    container_name: genai-image
+    build: .
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    ports:
+      - "8501:8501"
